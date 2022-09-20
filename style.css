@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(40, 40, 40);
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 30px;
+}
+
+#bonneCouleur {
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+#haut {
+    background: rgb(77, 77, 169);
+    padding: 30px;
+}
+
+#milieu {
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#conteneurMilieu {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+button, #message{
+    font-size: 1.5em;
+    border: none;
+    padding: 5px;
+    margin: 0;
+    background: none;
+}
+
+#btnHard {
+    background: rgb(77, 77, 169);
+}
+
+.carre {
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+#conteneurBas {
+    min-width: 700px;
+}
+
+#division1, #division2 {
+    display: flex;
+}
+
+#bas {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#congrat {
+    margin-top: 30px;
+}
+
+i {
+    font-size: 30em;
+    text-align: center;
+    margin-left: 100px;
+}
+
+#playagin {
+    font-size: 6em;
+    text-align: center;
+}
